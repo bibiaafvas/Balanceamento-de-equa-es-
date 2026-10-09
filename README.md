@@ -1,0 +1,1 @@
+# Balanceamento-de-equa-es-
