@@ -1,4 +1,4 @@
-# Balanceamento de Equações 
+﻿# Balanceamento de Equações 
 
 ## OBJETIVOS 
 Crie um site interativo chamado **BalanceQ**, desenvolvido para realizar o balanceamento de equações químicas de maneira simples, rápida e educativa.

@@ -1,0 +1,48 @@
+/* BalanceQ - Estilos Químicos Personalizados */
+
+@keyframes pulseGlow {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(16, 185, 129, 0.2), 0 0 30px rgba(37, 99, 235, 0.1);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(16, 185, 129, 0.4), 0 0 45px rgba(37, 99, 235, 0.25);
+    }
+}
+
+.chem-glow {
+    animation: pulseGlow 4s ease-in-out infinite;
+}
+
+@keyframes floatMolecule {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-8px) rotate(3deg);
+    }
+}
+
+.chem-float {
+    animation: floatMolecule 6s ease-in-out infinite;
+}
+
+/* Scrollbar moderno */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Transições suaves */
+.transition-smooth {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
